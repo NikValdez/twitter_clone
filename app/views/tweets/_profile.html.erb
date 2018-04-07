@@ -1,0 +1,18 @@
+<div class="col-md-3">
+  <div class="card" style="width: 15rem;">
+    <div class="card-header">
+      Profile
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        <%= gravatar_image_tag(current_user.email) %><span class="name"><%= current_user.name %></span>
+      </li>
+      <div class="list-group-item">
+        <nav class="links"
+          <span class="icon">
+          <p>Tweets</p>
+          <strong><%= current_user.tweets.count %></strong>
+      </li>
+    </ul>
+  </div>
+</div>

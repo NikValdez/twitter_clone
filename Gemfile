@@ -78,3 +78,7 @@ gem 'omniauth-facebook', '~> 4.0'
 gem 'omniauth-twitter', '~> 1.4'
 gem 'omniauth-github', '~> 1.3'
 gem 'whenever', require: false
+gem 'better_errors', '~> 2.4'
+gem "binding_of_caller"
+gem 'guard', '~> 2.14', '>= 2.14.2'
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false

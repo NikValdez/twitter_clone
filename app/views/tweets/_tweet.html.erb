@@ -1,0 +1,10 @@
+<div class="col-md-6">
+  <div class="card">
+  <div class="card-body">
+    <h4>Tweet about it</h4>
+    <h6><%= gravatar_image_tag(current_user.email) %></h6>
+    <%= render 'form', tweet: @tweet %>
+  </div>
+</div>
+
+</div>

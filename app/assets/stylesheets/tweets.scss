@@ -1,0 +1,39 @@
+// Place all the styles related to the Tweets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.tweet-spacing,  {
+  margin: 15px;
+  padding: 5px 20px 0 20px;
+}
+
+
+img {
+  border-radius: 50%;
+}
+
+.link-spacing{
+  margin-right: 10px;
+}
+
+
+.fa {
+  margin-right: 10px;
+}
+
+
+.name-space {
+  margin-right: 10px;
+}
+
+.name{
+  margin-left: 8px;
+}
+
+.jumbotron {
+  background: #1da1f2;
+}
+
+
+.display-4{
+  color: #fff;
+}
